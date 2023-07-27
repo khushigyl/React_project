@@ -1,0 +1,148 @@
+* {
+}
+h1 {
+  font-size: 4rem;
+  font-family: Georgia, serif;
+}
+h3 {
+  font-size: 2rem;
+  font-family: Georgia, serif;
+}
+body {
+  color: #000;
+  background-color: #e8cf9b;
+  font-family: Melodrama, sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+}
+.r-container {
+  padding: 1% 1%;
+  height: 100%;
+  margin: 1% 1%;
+}
+.r-content {
+  height: 100%;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  animation-name: heading;
+  animation-duration: 5s;
+  top: 25%;
+  left: 36%;
+}
+@keyframes heading {
+  0% {
+    top: 0%;
+    left: 36%;
+  }
+  25% {
+    top: 25%;
+    left: 36%;
+  }
+}
+
+.diff-color {
+  padding: 1% 1%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+}
+.loc {
+  padding: 1% 31% 1% 10%;
+}
+.timming {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 1% 10% 1% 31%;
+}
+.time {
+  font-family: Georgia, serif;
+  margin-left: 1%;
+}
+.address {
+  font-family: Georgia, serif;
+}
+.day {
+  font-family: Georgia, serif;
+  margin-bottom: 0%;
+}
+#photo {
+  width: 100%;
+}
+.open {
+  margin: 0% 1%;
+}
+
+/* media-screen -------*/
+@media screen and (max-width: 768px) {
+  .heading {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    animation-name: heading;
+    animation-duration: 5s;
+    top: 40%;
+    left: 36%;
+  }
+  @keyframes heading {
+    0% {
+      top: 0%;
+      left: 36%;
+    }
+    25% {
+      top: 45%;
+      left: 36%;
+    }
+  }
+  .r-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5% 5%;
+    gap: 15px;
+  }
+  h3 {
+    font-size: x-small;
+  }
+  h1 {
+    font-size: small;
+  }
+  .diff-color {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5% 5%;
+    gap: 15px;
+  }
+  .timming {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5% 5%;
+    gap: 15px;
+  }
+  .time {
+    border: 1px solid black;
+    font-family: Georgia, serif;
+  }
+  .day {
+    font-family: Georgia, serif;
+  }
+  .open {
+    padding: 1% 1% 1% 35%;
+  }
+
+  p {
+    text-align: center;
+    font-size: xx-small;
+  }
+  #photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,39 @@
+h2 {
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  font-style: oblique;
+}
+#parent_menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  width: 100%;
+  height: 1500px;
+}
+
+#parent_menu .cardt img {
+  width: 100%;
+  height: 900px;
+  object-fit: cover;
+}
+
+#child_menu1,
+#child_menu2,
+#child_menu3,
+#child_menu4,
+#child_menu5 {
+  border: 1px solid grey;
+}
+@media only screen and (max-width: 768px) {
+  #parent_menu {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  #parent_menu .cardt {
+    width: 100%;
+    height: 200px;
+  }
+}

@@ -1,23 +1,25 @@
 import React, { useState } from "react";
 import "./cardt.css";
 import { useNavigate } from "react-router-dom";
-import PaymentPage from "../menu/payementpage";
-function Cardt({ title, imgsrc, body }) {
-  const [isAdded, setIsAdded] = useState(false);
+import PaymentPage from "./paymentpage";
+function Cardt({ title, imgsrc, body, onAddToCart, isAdded }) {
+  // Use only the `isAdded` prop, not the `isAdded` state
+  // const [isAdded, setIsAdded] = useState(false);
   const navigate = useNavigate();
   const handleBuyNow = () => {
     alert(`💰 Your price is ${body}`);
-    navigate("../menu/payementpage");
-    //alert(`Payment was successful. 🎉`);
+    navigate("./paymentpage");
   };
 
   const handleAddToCart = () => {
-    setIsAdded(true);
+    // Call the `onAddToCart` prop to add the item to the cart in the parent component (Menupage)
+    onAddToCart(title);
     alert(`🛒 ${title} is added to your cart. 🛍️`);
   };
 
   const handleDeleteFromCart = () => {
-    setIsAdded(false);
+    // Call the `onAddToCart` prop with an empty string to remove the item from the cart in the parent component (Menupage)
+    onAddToCart("");
     alert(`🗑️ ${title} is removed from your cart.`);
   };
 

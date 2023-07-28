@@ -1,5 +1,5 @@
 # React_project
-Team-ScriptSquad<br>
+**Team-ScriptSquad**<br>
 1.Khushi Goyal<br>
 2.Dhanada Panda<br>
 3.Barsha Rani Parida<br>

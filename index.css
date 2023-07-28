@@ -1,0 +1,101 @@
+/*body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}*/
+/*cards*/
+#food {
+  width: 100%;
+  height: 100%;
+  border-radius: 15%;
+}
+
+.boxx {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  padding: 2% 4%;
+  border-radius: 10%;
+}
+.des {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8%;
+}
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5% 5%;
+    gap: 10%;
+  }
+  p {
+    text-align: center;
+    font-size: large;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 768px) {
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5% 5%;
+    gap: 10%;
+  }
+  p {
+    text-align: center;
+    font-size: xx-small;
+  }
+  img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+  }
+}
+/*button*/
+#cart {
+  padding: 4% 3%;
+  font-size: 1rem;
+  border-radius: 15%;
+}
+.Name {
+  position: absolute;
+  left: 38%;
+  animation-name: name;
+  animation-duration: 5s;
+  font-size: 4rem;
+  color: White;
+}
+@keyframes name {
+  0% {
+    left: 30%;
+  }
+  25% {
+    left: 90%;
+  }
+}
+/*Dishes*/
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6%;
+  padding: 2% 2%;
+}
+/*Menu page*/
+.menu {
+  padding: 2% 2%;
+}
+.main-div {
+  margin-bottom: 10%;
+}

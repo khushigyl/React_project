@@ -37,8 +37,8 @@ function CartPage() {
     <div>
       <h2>Cart Items</h2>
       <ul>
-        {cartItems.map((item) => (
-          <li key={item.id}>
+        {cartItems.map((item, index) => (
+          <li key={index}>
             {item}
             <button onClick={() => handleDeleteItem(item)}>Delete</button>
           </li>

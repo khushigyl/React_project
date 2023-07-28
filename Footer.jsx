@@ -16,7 +16,9 @@ function Footer() {
           <input type="text" placeholder="MESSAGE AND PHONE NUMBER" />
         </div>
         <div className="send">
-          <button style={{ padding: "20px" }}>SEND</button>
+          <button style={{ padding: "20px" }} id="sbut">
+            SEND
+          </button>
         </div>
       </div>
       <div className="contact">

@@ -38,7 +38,7 @@ input {
 .mpn ::-webkit-input-placeholder {
   margin-bottom: 40%;
 }
-button {
+#sbut {
   color: black;
   letter-spacing: 5px;
   background-color: rgba(0, 0, 0, 0);
@@ -53,7 +53,10 @@ button {
 }
 
 button:hover {
-  border-color: black98;
+  border-color: black;
+  background-color: rgba(0, 0, 0, 0.949);
+  color: #dcc390;
+  cursor: pointer;
 }
 .send {
   display: flex;

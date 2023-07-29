@@ -10,7 +10,8 @@
 
 **Reservation Page -**<br>
 ![Uploading Screenshot (310).png…]()<br>
-![Uploading Screenshot (311).png…]()<br>
+![Uploading Screenshot (311).png…]()![Screenshot (53)](https://github.com/khushigyl/React_project/assets/138769263/ecb28099-b4c2-489a-83b8-991ea33a510c)
+<br>
 ![Uploading Screenshot (312).png…]()<br>
 *******menu page********
 first menu page is

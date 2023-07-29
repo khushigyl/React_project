@@ -1,0 +1,135 @@
+.main-div {
+  background-color: #e8cf9b;
+  margin-top: -2%;
+}
+#nav {
+  background-color: #ceb785;
+}
+#right-img {
+  margin-bottom: 11.3%;
+  margin-left: 75%;
+  transform: translateY(
+    -40%
+  ); /* Initially move the image 100% up (out of view) */
+  transition: transform 1s; /* Add a transition to the transform property */
+}
+.main-div:hover #left-img {
+  transform: translateY(
+    0
+  ); /* Move the left image back to its original position */
+}
+
+.main-div:hover #right-img {
+  transform: translateY(
+    0
+  ); /* Move the right image back to its original position */
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-left: 11%;
+}
+#images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#left-img {
+  margin-right: 75%;
+  transform: translateY(
+    40%
+  ); /* Initially move the image 100% down (out of view) */
+  transition: transform 1s; /* Add a transition to the transform property */
+}
+#lefthr {
+  text-align: left;
+  width: 45px;
+  margin-left: 0.1%;
+  border: 0.5px solid black;
+}
+
+.menu-section {
+  height: 138vh;
+  margin-top: 10%;
+  /* padding: 10px 0px; */
+  /* text-align: center; */
+  background-color: #000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 50px 60px; */
+  display: flex;
+}
+
+.big-text-bg {
+  margin-top: -1%;
+  text-align: center;
+  -webkit-text-fill-color: transparent;
+  background-image: url("https://uploads-ssl.webflow.com/6437e076d27d2710e933a3c8/644b9fc3b44a8c42b0fc2ec8_pexels-ella-olsson-1640771-1.jpg");
+  background-position: 50%;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background-attachment: fixed;
+  /* -webkit-background-clip: text; */
+  background-clip: text;
+  font-size: 22vw;
+  font-weight: 600;
+  line-height: 0.9em;
+  font-family: Perpetua;
+  margin-right: 15%;
+}
+#view-menu {
+  color: #e8cf9b;
+  letter-spacing: 1px;
+  width: 25%;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #e8cf9b;
+  border-radius: 3px;
+  padding: 20px 30px;
+  font-size: large;
+  transition: all 0.4s;
+  padding: 20px 40px;
+  margin-top: -12%;
+  text-align: center;
+  margin-right: 2%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#view-menu:hover {
+  border-color: #e8cf9b;
+  background-color: #e8cf9b;
+  color: black;
+  cursor: pointer;
+}
+._1000-px-div {
+  max-width: 1000px;
+  text-align: center;
+  margin-top: 15%;
+  margin-right: auto;
+  font-size: 52px;
+  margin-top: 40%;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 70px;
+  font-family: Futara;
+}
+#p1 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  font-family: Segoe Print;
+  margin-top: -42%;
+  margin-left: 55%;
+  text-align: left;
+  padding-right: 9%;
+}
+#p2 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  font-family: Segoe Print;
+  margin-top: 7%;
+  margin-left: 55%;
+  text-align: left;
+  padding-right: 9%;
+}

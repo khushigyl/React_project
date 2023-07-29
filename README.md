@@ -31,6 +31,7 @@ after that payment page will open
 ![Screenshot (21)](https://github.com/khushigyl/React_project/assets/130206432/27d3236a-624d-44e2-b507-fd417bc66483)
 on clicking pay now button
 
+![Screenshot (51)](https://github.com/khushigyl/React_project/assets/138769263/1119e8ee-c27b-4714-8333-9f39974c2334)
 
 ![Screenshot (22)](https://github.com/khushigyl/React_project/assets/130206432/a487270f-b47b-4beb-a2a6-74aa33f616aa)
 if one click on add button

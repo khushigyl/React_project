@@ -24,6 +24,7 @@ after that can add it on cart by clickiong on add button ao buy by clicking on b
 ![Screenshot (20)](https://github.com/khushigyl/React_project/assets/130206432/f3c865a8-5ce4-4e25-b2ab-42bdf8340ba9)
 after that payment page will open
 
+![Screenshot (49)](https://github.com/khushigyl/React_project/assets/138769263/1210f359-4a53-4abc-a38b-72e60d5b4dbe)
 
 
 ![Screenshot (21)](https://github.com/khushigyl/React_project/assets/130206432/27d3236a-624d-44e2-b507-fd417bc66483)

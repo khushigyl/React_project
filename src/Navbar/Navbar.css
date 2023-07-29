@@ -1,0 +1,39 @@
+.main_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e8cf9b;
+  padding: 10px;
+  /* margin-top: 5%; */
+  /* margin-top: -8%; */
+}
+
+#child1 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#child1 a {
+  margin-right: 13%;
+}
+
+#child2 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#child2 a {
+  margin-left: 13%;
+}
+
+a {
+  font-weight: 520;
+  margin-top: 5%;
+  text-decoration: none;
+  color: black;
+  /* font-family: Neco, sans-serif; */
+  font-family: "neco,sens-serif";
+  /* font-size: 20px; */
+}

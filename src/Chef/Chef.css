@@ -1,0 +1,89 @@
+.main-div2{
+  background-color: #e8cf9b;
+  margin-bottom: -1%;
+}
+
+#right-img {
+  margin-bottom: 11.3%;
+  margin-left: 5%;
+}
+
+#left-img {
+  margin-right: 5%;
+}
+
+.menu-section {
+  height: 138vh;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.big-text-bg {
+  text-align: center;
+  -webkit-text-fill-color: transparent;
+  background-image: url("https://uploads-ssl.webflow.com/6437e076d27d2710e933a3c8/643d5944e5ff0a2e6d64d934_pexels-polina-tankilevitch-4518703-1-1.jpg");
+  background-position: 50%;
+  background-clip: text;
+  font-size: 18vw;
+  font-weight: 600;
+  line-height: 0.9em;
+  font-family: Perpetua;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+#view-menu {
+  color: #e8cf9b;
+  letter-spacing: 1px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #e8cf9b;
+  border-radius: 3px;
+  padding: 8px 30px;
+  font-family: Lucida Bright;
+  font-size: 16px;
+  transition: all 0.4s;
+  padding: 12px 40px;
+  margin-top: -12%;
+  margin-right: 12%;
+  width: 8%;
+}
+
+#chefimg1 {
+  width: 38%;
+  height: 34%;
+  border-radius: 3px;
+  margin-top: 8%;
+  margin-left: 20%;
+}
+
+#chefimg2 {
+  width: 38%;
+  height: 34%;
+  border-radius: 3px;
+  margin-top: 20%;
+  margin-right: 48%;
+}
+
+#chefimg3 {
+  width: 34%;
+  height: 28%;
+  border-radius: 3px;
+  margin-top: 24%;
+  margin-left: 20%;
+}
+
+h2 {
+  font-family: Futara;
+  font-size: 250%;
+  margin-top: -40%;
+}
+
+@media (max-width: 768px) {
+  .main-div {
+    font-size: small;
+  }
+}

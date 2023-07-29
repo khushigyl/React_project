@@ -1,0 +1,301 @@
+.main1_div {
+  background-color: #e8cf9b;
+}
+
+h1 {
+  margin-left: 38%;
+  font-family: "Comic Sans MS", Times, serif;
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+
+img {
+  margin-left: 10px;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.image-wrapper {
+  width: 100%;
+}
+
+#right-img {
+  margin-bottom: 11.3%;
+  margin-left: -4%;
+  justify-content: left;
+  align-items: flex-end;
+  margin: 10%;
+  margin-top: 19%;
+}
+#left-img {
+  margin-right: -2%;
+  margin-bottom: 11.3%;
+  justify-content: right;
+  align-items: flex-start;
+  margin: 6%;
+  margin-top: 8%;
+}
+
+#left-text {
+  margin: 15px 0 10px; /*Increased the top margin to move the element down */
+  margin-left: 8%;
+  text-align: left;
+  font-family: "Small Fonts", Times, serif;
+}
+#left-text hr {
+  text-align: left;
+  width: 87%;
+  margin-left: 4%;
+  border: 0.5px solid black; /*Changed border properties to make the hr thicker and black */
+}
+
+#right-text {
+  text-align: left;
+  margin-left: 72%;
+  margin-top: -100px; /*Added a negative margin-top to move the element up */
+}
+
+#right-text hr {
+  text-align: left;
+  width: 98%;
+  margin-right: 40%;
+  border: 0.5px solid black; /*Changed border properties to make the hr thicker and black */
+}
+
+/*#h1[data-aos],
+  #center-text[data-aos] {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  #h1[data-aos].aos-animate,
+  #center-text[data-aos].aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+  }*/
+
+/* #h3[data-Aos].Aos-animate,
+  #center-text[data-Aos].Aos-animate{
+  text-align: center;
+  margin: 70px 70px;
+  font-family: "Comic Sans MS", Times, serif;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 42px;
+  margin: 70px 70px;
+}*/
+
+.video-element {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  border-radius: 12px;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+/*.service{
+    font-family: Futara;
+    font-size: 80%;
+padding-right: 10%;
+padding-left: 10%;
+text-shadow: 2px 2px 11px #000000;
+  }*/
+h2 {
+  text-align: left;
+  margin-left: 28%;
+  margin-bottom: 30%;
+  margin-top: 50%;
+  font-size: 80%;
+  font-family: Futara;
+}
+/* #cozy{
+      position: absolute;
+      top: 260%;
+      margin-left: 25%;
+      width: 300px;
+      height: 270px;
+      border-radius:90%
+  }
+  .vert{
+      transform:rotate(90deg);
+      width: 50%;
+      border: 0.1px solid black;
+      margin-right: 70%;
+      margin-top: 5%;
+  }
+  #cozy1{
+    width: 290px;
+     height: 260px;
+     position:absolute;
+     top: 290%;
+  }
+  .para{
+    text-align: left;
+    margin-left:4%; */
+/* margin-bottom: 60%; */
+/* margin-top: -31%;
+    line-height: 24px;
+  }
+  .cndh{
+      position: absolute;
+      top: 360%;
+      margin-left: -40%;
+      width: 300px;
+      height: 270px;
+      border-radius:90%
+  }
+  .cndh2{
+    width: 290px;
+    height: 260px;
+     position:absolute;
+     top: 390%;
+     margin-left: -30%;
+  } */
+/* .vert1{
+    transform:rotate(90deg);
+    width: 50%;
+    border: 0.1px solid black;
+    margin-left: 25%; */
+
+/* 
+      transform:rotate(90deg);
+      width: 35%;
+      border: 0.1px solid black;
+      margin-right: 32%;
+      margin-bottom: -20px;
+  }
+  .ch{
+    margin-left: 70%;
+    margin-bottom: 1%;
+  }
+  .para1{
+    text-align: left;
+    margin-left:60%;
+    
+    line-height: 24px;
+  } */
+
+/* Home.css */
+/* Home.css */
+/* .vert1 {
+transform: rotate(90deg);
+width: 35%;
+border: 0.1px solid black;
+margin-right: 32%;
+margin-bottom: 10px; 
+}
+.ch {
+margin-left: 70%;
+margin-bottom: -30px;
+}
+
+.para1 {
+text-align: left;
+margin-left: 60%;
+line-height: 24px;
+margin-top: 90px; 
+} */
+
+/* Home.css */
+/* ... Your existing CSS ... */
+
+/* Styling for Chakra UI Card component */
+.card-container {
+  display: grid;
+  /* flex-direction: row; */
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 400px;
+  /* margin: 20px auto; */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #e8cf9b;
+  padding: 20px;
+  margin-top: -27%;
+  margin-left: 4%;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.card-description {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  font-family: "Small Fonts", Times, serif;
+  /* margin-bottom: 20px; */
+}
+.menu-section {
+  height: 138vh;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.big-text-bg {
+  margin-top: -1%;
+  text-align: center;
+  justify-content: center;
+  -webkit-text-fill-color: transparent;
+  background-image: url("https://uploads-ssl.webflow.com/6437e076d27d2710e933a3c8/644b9fc3b44a8c42b0fc2ec8_pexels-ella-olsson-1640771-1.jpg");
+  background-position: 50%;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background-attachment: fixed;
+  /* -webkit-background-clip: text; */
+  background-clip: text;
+  font-size: 22vw;
+  font-weight: 600;
+  line-height: 0.9em;
+  font-family: Perpetua;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+#view-menu {
+  color: #e8cf9b;
+  letter-spacing: 1px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #e8cf9b;
+  border-radius: 3px;
+  padding: 8px 30px;
+  font-family: Lucida Bright;
+  font-size: 16px;
+  transition: all 0.4s;
+  padding: 12px 40px;
+  margin-top: -12%;
+  margin-right: 12%;
+  width: 8%;
+  margin-left: 12%;
+}
+#view-menu:hover {
+  border-color: #e8cf9b;
+  background-color: #e8cf9b;
+  color: black;
+  cursor: pointer;
+}

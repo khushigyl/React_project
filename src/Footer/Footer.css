@@ -1,0 +1,87 @@
+h1 {
+  /* font-family: "Comic Sans MS", Times, serif; */
+
+
+  font-weight: 700;
+  font-family: Futara;
+  font-size: 55px;
+}
+h4 {
+  font-family: "Comic Sans MS", Times, serif;
+  font-size: 34px;
+  margin-top: 10%;
+}
+.main-div {
+  background-color: #dcc390;
+}
+.input1 {
+  float: left;
+  margin: 25vh;
+  margin-left: 20%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40%;
+}
+input {
+  background-color: #dcc390;
+  width: 50vh;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+::-webkit-input-placeholder {
+  letter-spacing: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 510;
+  color: black;
+  font-size: large;
+}
+.mpn input {
+  margin-left: 10%;
+  width: 70%;
+}
+.mpn ::-webkit-input-placeholder {
+  margin-bottom: 40%;
+}
+button {
+  color: black;
+  letter-spacing: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 14%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+  transition: all 0.4s;
+
+  margin-top: 12%;
+}
+button:hover {
+  border-color: black;
+  background-color: rgba(0, 0, 0, 0.949);
+  color: #dcc390;
+  cursor: pointer;
+}
+p {
+  margin-top: -3%;
+  margin-left: 17%;
+  font-family: Comic Sans MS;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Bodoni MT;
+  font-size: large;
+  margin: 9px;
+  text-align: center;
+}
+.child1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#parent-div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* margin-bottom: 10%; */
+}

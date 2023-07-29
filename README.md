@@ -19,6 +19,7 @@ in this any one can chose any button which he/she wants
 for each button single page will open as it
 if drinks button clicked
 ![Screenshot (19)](https://github.com/khushigyl/React_project/assets/130206432/984ec71e-cbc0-4d4c-ae92-808754ce4c0d)
+![WhatsApp Image 2023-07-29 at 2 27 05 PM](https://github.com/khushigyl/React_project/assets/138769263/919695d8-223a-48b4-94e7-71acd4582f01)
 
 after that can add it on cart by clickiong on add button ao buy by clicking on buy now button
 ![Screenshot (20)](https://github.com/khushigyl/React_project/assets/130206432/f3c865a8-5ce4-4e25-b2ab-42bdf8340ba9)

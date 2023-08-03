@@ -44,7 +44,6 @@ if we go to add to cart
 if here we click on delete button then item is deleted from add to cart part
 ![Screenshot (25)](https://github.com/khushigyl/React_project/assets/130206432/cf629c28-8806-4b9b-952d-763221cb6379)
 ![Screenshot (54)](https://github.com/khushigyl/React_project/assets/138769263/a5093c30-a7e9-4432-bd7d-cede4b2cb5f7)
-![Screenshot (54)](https://github.com/khushigyl/React_project/assets/138769263/f001b856-9fe5-4d46-bfbd-6c75ab23681f)
 
 ![Screenshot (48)](https://github.com/khushigyl/React_project/assets/138769263/69a3cff3-c778-449b-9cc4-d6880026f065)
 
